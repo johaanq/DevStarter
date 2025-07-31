@@ -1,10 +1,10 @@
 # DevStarter Wars 🚀
 
-Una app para desarrolladores jóvenes que necesitan motivación falsa para codear proyectos absurdos.
+Una app para desarrolladores jóvenes que necesitan motivación para codear proyectos.
 
 ## 🎯 Características
 
-- **Generador de Ideas Inútiles**: Recibe ideas absurdas generadas por Groq AI (Llama 3)
+- **Generador de Ideas**: Recibe ideas generadas por Groq AI (Llama 3)
 - **Vault Personal**: Guarda tus ideas favoritas para fingir que las harás algún día
 - **Commit Wars**: Muro social con los commits más absurdos de la comunidad
 - **Diseño Dark**: Interfaz moderna y adictiva con tema oscuro
@@ -62,32 +62,6 @@ npm run dev
 - ✅ **Modelos potentes** - Llama 3 de Meta
 - ✅ **Sin límites estrictos** - Perfecto para desarrollo
 
-## 📁 Estructura del Proyecto
-
-\`\`\`
-devstarter-wars/
-├── app/
-│   ├── layout.tsx          # Layout global con Navbar
-│   ├── page.tsx            # Home page con generador
-│   ├── vault/page.tsx      # Página del vault
-│   ├── commitwars/page.tsx # Muro de commits
-│   └── api/                # API routes
-│       ├── generate-idea/route.ts # Generación de ideas con Groq
-│       └── test-groq/route.ts     # Test de conexión con Groq
-├── components/
-│   ├── Navbar.tsx          # Barra de navegación
-│   ├── IdeaCard.tsx        # Tarjeta de idea
-│   └── CommitCard.tsx      # Tarjeta de commit
-├── lib/
-│   ├── supabase.ts         # Configuración de Supabase
-│   └── groq.ts             # Configuración de Groq AI
-├── hooks/
-│   ├── useAuth.ts          # Hook de autenticación
-│   ├── useIdeas.ts         # Hook para ideas
-│   └── useCommits.ts       # Hook para commits
-└── scripts/
-    └── *.sql               # Scripts de base de datos
-\`\`\`
 
 ## 🔮 Features
 
